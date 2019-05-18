@@ -117,5 +117,17 @@ namespace CoreAPIDemo
 				| (uint)PXC_SecurityPermissions.Permit_Copying_And_TextGraphicsExtractions 
 				| (uint) PXC_SecurityPermissions.Permit_Modification, "1243", "9524");
 		}
-	}
+        [Description("2.8. Test jacusia 1")]
+        static public int Test1(Form1 Parent)
+        {
+            string sPath = System.Environment.CurrentDirectory + "\\Documents\\FeatureChartEU.pdf";
+            Parent.CloseDocument();
+            Parent.m_CurDoc = Parent.m_pxcInst.OpenDocumentFromFile(sPath, null);
+
+          var i =  Parent.m_CurDoc.HasDigitalSigns();
+           // var sJS = Parent.m_pxcInst.Sig
+
+            return (int)Form1.eFormUpdateFlags.efuf_All;
+        }
+    }
 }

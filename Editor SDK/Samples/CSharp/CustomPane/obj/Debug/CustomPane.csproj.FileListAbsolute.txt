@@ -1,0 +1,14 @@
+C:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\CustomPane.exe.config
+C:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\CustomPane.exe
+C:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\CustomPane.pdb
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.csprojAssemblyReference.cache
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\Interop.PDFXEdit.dll
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\AxInterop.PDFXEdit.dll
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.csproj.ResolveComReference.cache
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.Form1.resources
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.Properties.Resources.resources
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.UserControl1.resources
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.csproj.GenerateResource.cache
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.csproj.CoreCompileInputs.cache
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.exe
+c:\Users\jkosinski\source\repos\pdf\Editor SDK\Samples\CSharp\CustomPane\obj\Debug\CustomPane.pdb

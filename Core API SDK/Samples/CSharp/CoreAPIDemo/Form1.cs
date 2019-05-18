@@ -1376,5 +1376,10 @@ namespace CoreAPIDemo
 			UpdateControlsFromDocument(Attachments.RemoveAttachment(this));
 			UpdatePreviewFromCurrentDocument();
 		}
-	}
+
+        private void SampleTree_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+    }
 }

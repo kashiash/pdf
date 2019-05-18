@@ -37,3 +37,45 @@ C:\Program Files (x86)\Tracker Software\Core API SDK\Samples\PDFCoreSDKExamples.
 C:\Program Files (x86)\Tracker Software\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.Form1.resources
 C:\Program Files (x86)\Tracker Software\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.CoreCompileInputs.cache
 C:\Program Files (x86)\Tracker Software\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.CopyComplete
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\addAnnot_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\annot_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\attachment.add_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\attachment.remove_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\attachments.open_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\attachment_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\removeAnnot_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\sortAsc_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\sortDesc_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Documents\FeatureChartEU.pdf
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Documents\MyStamps.pdf
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Documents\PasswordProtected.pdf
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Documents\FormTypes.pdf
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Documents\Hobbit.txt
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\addDest_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\bookmark_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\CoreAPI_32.ico
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\deleteBookmark_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\dest_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\Editor_welcome.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\folder_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\gotoSource_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\moveDown_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\moveUp_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\newBookmark_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\next_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\removeDest_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\runGreyed_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\Images\run_24.png
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\CoreAPIDemo.exe.config
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\CoreAPIDemo.exe
+C:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\PDFCoreSDKExamples.AnyCPU\Debug\CoreAPIDemo.pdb
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csprojAssemblyReference.cache
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\Interop.PDFXCoreAPI.dll
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.ResolveComReference.cache
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.Form1.resources
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.Properties.Resources.resources
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.GenerateResource.cache
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.CoreCompileInputs.cache
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.csproj.CopyComplete
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.exe
+c:\Users\jkosinski\source\repos\pdf\Core API SDK\Samples\CSharp\CoreAPIDemo\obj\Debug\CoreAPIDemo.pdb

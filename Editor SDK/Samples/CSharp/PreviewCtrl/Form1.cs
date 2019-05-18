@@ -73,7 +73,9 @@ namespace PreviewCtrl
 				tabControl1.Controls.Add(tabPage);
 				tabControl1.SelectedTab = tabPage;
 
-			}
+                //ShowPane(IDS.signaturesView, (ckShowSignatures.Checked));
+                //previewCtrl2.Pa
+            }
 		}
 
 		private PDFXEditCtrl.PreviewCtrl GetActivePreview()

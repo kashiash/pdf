@@ -1,0 +1,11 @@
+C:\NET\PDFEditorSDKExamples.x64\Debug\TiffExtractor.exe.config
+C:\NET\working\TiffExtractor\obj\x64\Debug\Interop.PDFXEdit.dll
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.csproj.ResolveComReference.cache
+C:\NET\PDFEditorSDKExamples.x64\Debug\TiffExtractor.exe
+C:\NET\PDFEditorSDKExamples.x64\Debug\TiffExtractor.pdb
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.csprojResolveAssemblyReference.cache
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.Form1.resources
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.Properties.Resources.resources
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.csproj.GenerateResource.Cache
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.exe
+C:\NET\working\TiffExtractor\obj\x64\Debug\TiffExtractor.pdb
