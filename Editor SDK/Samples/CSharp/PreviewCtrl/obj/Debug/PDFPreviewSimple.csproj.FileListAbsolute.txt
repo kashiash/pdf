@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\PDFPreviewSimple.exe.config
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\PDFPreviewSimple.exe
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.AnyCPU\Debug\PDFPreviewSimple.pdb
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.csprojAssemblyReference.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\Interop.PDFXEdit.dll
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.csproj.ResolveComReference.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PreviewCtrl.Form1.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFXEditCtrl.PreviewCtrl.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PreviewCtrl.Properties.Resources.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.csproj.GenerateResource.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.exe
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\PreviewCtrl\obj\Debug\PDFPreviewSimple.pdb

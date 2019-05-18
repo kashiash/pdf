@@ -1,0 +1,17 @@
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.x86\Debug\FullDemo.exe.config
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.x86\Debug\FullDemo.exe
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\PDFEditorSDKExamples.x86\Debug\FullDemo.pdb
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.csprojAssemblyReference.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\Interop.PDFXEdit.dll
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\AxInterop.PDFXEdit.dll
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.csproj.ResolveComReference.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.ExtractPagesForm.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.InsertPagesForm.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.MainFrm.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.AddWatermarkForm.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.PrintForm.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.Properties.Resources.resources
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.csproj.GenerateResource.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.exe
+C:\Program Files (x86)\Tracker Software\Editor SDK\Samples\CSharp\FullDemo\obj\x86\Debug\FullDemo.pdb
