@@ -1,0 +1,12 @@
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\bin\Debug\PDFdriverAPI.exe.config
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\bin\Debug\PDFdriverAPI.exe
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\bin\Debug\PDFdriverAPI.pdb
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.csprojAssemblyReference.cache
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\Interop.PXCComLib7.dll
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.csproj.ResolveComReference.cache
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.Form1.resources
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.Properties.Resources.resources
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.csproj.GenerateResource.cache
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.csproj.CoreCompileInputs.cache
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.exe
+c:\Users\jkosinski\source\repos\pdf\PDFdriverAPI\obj\Debug\PDFdriverAPI.pdb
