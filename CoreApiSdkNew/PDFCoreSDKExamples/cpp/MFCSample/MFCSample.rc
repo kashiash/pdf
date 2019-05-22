@@ -1,0 +1,731 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\MFCSample.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+
+IDB_NAVIGATION_LARGE    BITMAP                  "res\\nav_large.bmp"
+
+IDB_NAVIGATION_LARGE_HC BITMAP                  "res\\nav_large_hc.bmp"
+
+IDB_PAGES               BITMAP                  "res\\pages.bmp"
+
+IDB_PAGES_HC            BITMAP                  "res\\pages_hc.bmp"
+
+IDB_PAGES_SMALL         BITMAP                  "res\\pages_small.bmp"
+
+IDB_PAGES_SMALL_HC      BITMAP                  "res\\pages_small_hc.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        POPUP "&Application Look"
+        BEGIN
+            MENUITEM "Windows &2000",               ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office &XP",                  ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "&Windows XP",                 ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 200&3",                ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 200&7"
+            BEGIN
+                MENUITEM "&Blue Style",                 ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "B&lack Style",                ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "&Silver Style",               ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "&Aqua Style",                 ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About MFCSample...",         ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "Edit"
+    BEGIN
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    MENUITEM "&New Window",                 ID_WINDOW_NEW
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "&Copy",                       ID_EDIT_COPY
+        MENUITEM "&Clear",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "&Hide",                       ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "&About MFCSample...",         ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (&Blue Style)",   ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (B&lack Style)",  ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (&Silver Style)", ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (&Aqua Style)",   ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Win&dows 7",                  ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 179, 75
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About MFCSample"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "MFCSample, Version 1.2",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,122,54,50,14,WS_GROUP
+    CONTROL         "<a href=""http://www.tracker-software.com/product/pdf-xchange-core-api-sdk"">PDF-XChange Core API SDK</a>",IDC_SYSLINK1,
+                    "SysLink",WS_TABSTOP,40,38,97,10
+END
+
+IDD_DLG_BASE DIALOGEX 0, 0, 223, 112
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "&Run Sample...",IDC_CMD_RUN,"Button",BS_COMMANDLINK | WS_TABSTOP,7,80,90,25
+    CONTROL         "Save generated document to a file",IDC_B_SAVE_DOC,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,19,197,10
+    CONTROL         "Open file by default application",IDC_B_OPEN_FILE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,26,33,176,10
+    CONTROL         "Open generated document in internal preview",IDC_B_RUN_PREVIEW,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,47,197,10
+    GROUPBOX        "Save && view",IDC_STATIC,7,7,209,56
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,2,0,1
+ PRODUCTVERSION 1,2,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "Dreamsoft"
+            VALUE "FileDescription", "MFCSample"
+            VALUE "FileVersion", "1.2.0.1"
+            VALUE "InternalName", "MFCSample.exe"
+            VALUE "LegalCopyright", "Copyright © Dreamsoft 2016"
+            VALUE "OriginalFilename", "MFCSample.exe"
+            VALUE "ProductName", "PDFCoreSDKExamplesCpp"
+            VALUE "ProductVersion", "1.2.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+
+    IDD_DLG_BASE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "MFCSample"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "MFCSample"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle Status Bar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "Pane 1"
+    IDS_STATUS_PANE2        "Pane 2"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTPUT_WND          "Output"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_INFO_TAB            "Information"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_SAMPLES_WND         "Samples"
+    IDS_CALENDAR            "Calendar"
+    IDS_SHORTCUTS           "Shortcuts"
+    IDS_FILTER_CUE          "Search sample"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTLOOKBAR          "Outlook Bar"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EDIT_MENU           "Edit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_SAMPLES         "Show or hide the list of available samples\nToggle Samples List"
+    ID_VIEW_OUTPUT          "Show or hide the output panel\nToggle Output Pane"
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENC)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_CAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_EDIT_ICONS16        BITMAP                  "res\\editIcons16.bmp"
+
+IDB_EDIT_ICONS20        BITMAP                  "res\\editIcons20.bmp"
+
+IDR_PREVIEW_TOOLBAR     BITMAP                  "res\\preview.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_PREVIEW_TOOLBAR TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_VIEW_ZOOMIN
+    BUTTON      ID_VIEW_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_VIEW_PREV_PAGE
+    BUTTON      ID_VIEW_NEXT_PAGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DLG_OPEN_DOC DIALOGEX 0, 0, 282, 72
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_CONTROLPARENT
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Select document for preview:",IDC_STATIC,7,7,93,8
+    EDITTEXT        IDC_FILE_NAME,7,17,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "&Browse...",IDC_BROWSE,225,17,50,14
+    CONTROL         "&Run Sample...",IDC_CMD_RUN,"Button",BS_COMMANDLINK | WS_TABSTOP,7,40,90,25
+END
+
+IDD_DLG_EXPORT2IMAGE DIALOGEX 0, 0, 340, 220
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Source",IDC_STATIC,7,7,325,46
+    LTEXT           "&Document:",IDC_STATIC,14,21,48,8
+    EDITTEXT        IDC_FILE_NAME,63,18,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "&Browse...",IDC_BROWSE,275,18,50,14
+    LTEXT           "&Page:",IDC_STATIC,14,37,48,8
+    EDITTEXT        IDC_NUMBER,63,34,48,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_NUMBER_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,288,37,12,14
+    LTEXT           "of 0 page(s)",IDC_NUM_PAGES_LABEL,114,37,128,8
+    GROUPBOX        "Destination",IDC_STATIC,7,56,325,61
+    LTEXT           "Im&age file:",IDC_STATIC,14,71,48,8
+    EDITTEXT        IDC_IMAGE_FILE_NAME,63,68,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "Bro&wse...",IDC_BROWSE_PFX,275,68,50,14
+    LTEXT           "&Format:",IDC_STATIC,14,87,48,8
+    COMBOBOX        IDC_FORMATS,63,85,111,116,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "B&pp:",IDC_STATIC,14,101,48,8
+    COMBOBOX        IDC_BPP,63,99,111,116,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Rendering:",IDC_STATIC,7,123,325,60
+    LTEXT           "R&ender format:",IDC_STATIC,14,137,49,8
+    COMBOBOX        IDC_RFORMAT,63,135,86,50,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Text Sm&ooth Mode:",IDC_STATIC,161,137,63,8
+    COMBOBOX        IDC_TEXTMODE,224,135,86,50,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&DPI:",IDC_STATIC,14,152,48,8
+    EDITTEXT        IDC_DPI,63,149,48,14,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_DPI_SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS | UDS_NOTHOUSANDS,116,149,12,14
+    CONTROL         "Smooth &Line Arts",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,162,150,148,10
+    CONTROL         "Fill Back&ground",IDC_FILL_BG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,167,64,10
+    CONTROL         "",IDC_MFCCOLORBUTTON1,"MfcColorButton",WS_TABSTOP,81,165,50,14
+    CONTROL         "&Run Sample...",IDC_CMD_RUN,"Button",BS_COMMANDLINK | WS_TABSTOP,7,188,90,25
+END
+
+IDD_DLG_DIGISIG DIALOGEX 0, 0, 282, 141
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Select document for signing:",IDC_STATIC,7,7,91,8
+    EDITTEXT        IDC_FILE_NAME,7,17,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "&Browse...",IDC_BROWSE,225,17,50,14
+    LTEXT           "Select PFX file:",IDC_STATIC,7,42,47,8
+    EDITTEXT        IDC_PFX_FILE_NAME,7,52,209,14,ES_AUTOHSCROLL,WS_EX_ACCEPTFILES
+    PUSHBUTTON      "&Browse...",IDC_BROWSE_PFX,225,52,50,14
+    EDITTEXT        IDC_PASSWORD,7,82,105,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "PFX password:",IDC_STATIC,7,72,47,8
+    CONTROL         "&Run Sample...",IDC_CMD_RUN,"Button",BS_COMMANDLINK | WS_TABSTOP,7,109,90,25
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DLG_OPEN_DOC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_DLG_EXPORT2IMAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 332
+        VERTGUIDE, 14
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_DLG_DIGISIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DLG_EXPORT2IMAGE AFX_DIALOG_LAYOUT
+BEGIN
+    0,
+    0, 0, 100, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    100, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    100, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 100, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0,
+    0, 0, 0, 0
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#include ""res\\MFCSample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""      // Standard components\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""afxprint.rc""        // printing/print preview resources\r\n"
+    "#include ""afxribbon.rc""        // MFC ribbon and control bar resources\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSOR_HAND_DOWN    CURSOR                  "res\\hand_down.cur"
+
+IDC_CURSOR_HAND_UP      CURSOR                  "res\\hand_up.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DLG_EXPORT2IMAGE DLGINIT
+BEGIN
+    IDC_MFCCOLORBUTTON1, 0x37c, 215, 0
+0x4d3c, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 0x6f74, 0x5f6e, 0x6e45, 
+0x6261, 0x656c, 0x744f, 0x6568, 0x4272, 0x7475, 0x6f74, 0x3e6e, 0x5254, 
+0x4555, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 
+0x455f, 0x616e, 0x6c62, 0x4f65, 0x6874, 0x7265, 0x7542, 0x7474, 0x6e6f, 
+0x3c3e, 0x464d, 0x4343, 0x6c6f, 0x726f, 0x7542, 0x7474, 0x6e6f, 0x455f, 
+0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 0x7461, 0x6369, 0x7542, 0x7474, 
+0x6e6f, 0x463e, 0x4c41, 0x4553, 0x2f3c, 0x464d, 0x4343, 0x6c6f, 0x726f, 
+0x7542, 0x7474, 0x6e6f, 0x455f, 0x616e, 0x6c62, 0x4165, 0x7475, 0x6d6f, 
+0x7461, 0x6369, 0x7542, 0x7474, 0x6e6f, 0x3c3e, 0x464d, 0x4343, 0x6c6f, 
+0x726f, 0x7542, 0x7474, 0x6e6f, 0x435f, 0x6c6f, 0x6d75, 0x736e, 0x6f43, 
+0x6e75, 0x3e74, 0x3c38, 0x4d2f, 0x4346, 0x6f43, 0x6f6c, 0x4272, 0x7475, 
+0x6f74, 0x5f6e, 0x6f43, 0x756c, 0x6e6d, 0x4373, 0x756f, 0x746e, "\076" 
+    0
+END
+
+#endif    // English (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#include "res\MFCSample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"      // Standard components
+#if !defined(_AFXDLL)
+#include "afxprint.rc"        // printing/print preview resources
+#include "afxribbon.rc"        // MFC ribbon and control bar resources
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
